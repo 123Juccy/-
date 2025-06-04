@@ -11,6 +11,7 @@ resultPoint1 = minLoc
 resultPoint2 = (resultPoint1[0]+width,resultPoint1[1]+height)
 #在最佳匹配区域绘制红色框，线宽为2
 cv2.rectangle(img,resultPoint1,resultPoint2,(0,255,0),2)
+print("this is a new information!")
 cv2.imshow("templ",templ)
 cv2.imshow("img",img)
 cv2.waitKey(0)
